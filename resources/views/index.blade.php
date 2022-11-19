@@ -146,11 +146,11 @@
            @endif
           <select name="tag_id">
             <option value="" selected hidden>選択</option>
-            <option value="2">家事</option>
-            <option value="3">勉強</option>
-            <option value="4">運動</option>
-            <option value="5">食事</option>
-            <option value="6">移動</option>
+            <option value="1">家事</option>
+            <option value="2">勉強</option>
+            <option value="3">運動</option>
+            <option value="4">食事</option>
+            <option value="5">移動</option>
           </select>
           <button class="create_button">追加</button>
         </form>
@@ -180,11 +180,11 @@
                     <option value="{{ $Tag->tag_id }}" hidden> {{ $Tag->tag }}</option>
                     @endif
                   @endforeach
-                  <option value="2">家事</option>
-                  <option value="3">勉強</option>
-                  <option value="4">運動</option>
-                  <option value="5">食事</option>
-                  <option value="6">移動</option>
+                  <option value="1">家事</option>
+                  <option value="2">勉強</option>
+                  <option value="3">運動</option>
+                  <option value="4">食事</option>
+                  <option value="5">移動</option>
                 </select>
               </td>
               <td><button class="update_button">更新</button></td>
